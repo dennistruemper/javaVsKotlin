@@ -1,0 +1,133 @@
+{
+	"info": {
+		"name": "JavaVsKotlinSpring",
+		"_postman_id": "75acaafb-97a1-47bf-bf84-718cc1f2b03c",
+		"description": "",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "GetAllCustomerJava",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {},
+				"url": {
+					"raw": "localhost:8080/customerJava",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"customerJava"
+					]
+				},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "CreateRandomCustomerJava",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {},
+				"url": {
+					"raw": "localhost:8080/customerJava/random",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"customerJava",
+						"random"
+					]
+				},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "GetAllCustomerMixed",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {},
+				"url": {
+					"raw": "localhost:8080/customerMixed",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"customerMixed"
+					]
+				},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "CreateRandomCustomerMixed",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {},
+				"url": {
+					"raw": "localhost:8080/customerMixed/random",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"customerMixed",
+						"random"
+					]
+				},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "GetAllCustomerKotlin",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {},
+				"url": {
+					"raw": "localhost:8080/customerKotlin",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"customerKotlin"
+					]
+				},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "CreateRandomCustomerKotlin",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {},
+				"url": {
+					"raw": "localhost:8080/customerKotlin/random",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"customerKotlin",
+						"random"
+					]
+				},
+				"description": ""
+			},
+			"response": []
+		}
+	]
+}
